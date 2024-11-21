@@ -7,7 +7,7 @@
 		<title>Dan's Bistro</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
-	<body>
+	<body onload="handleDayOfWeek()">
 		<header>
 			<img src="images/logo.png" alt="Dan's Bistro">
 			<h1>Dan's Bistro</h1>			
@@ -20,8 +20,13 @@
 			<p>Dan's Bistro quickly became known for its signature dishes, such as Alberta beef bourguignon, wild mushroom risotto, and his famous lemon lavender crème brûlée. The menu showcases fresh, locally-sourced ingredients, with seasonal changes that reflect Alberta's bounty. Every dish has a personal touch—Dan often spends time talking to farmers and suppliers himself, ensuring the quality of every ingredient.</p>
 			<p>With its intimate tables, soft lighting, and friendly staff who know the regulars by name, Dan's Bistro has become a beloved part of the Hillhurst neighborhood, a place where locals gather for date nights, family dinners, or just a quick coffee and pastry on a Sunday morning. Dan's commitment to the community goes beyond the bistro walls; he often hosts charity dinners and partners with nearby businesses, making his bistro not only a culinary gem but a true fixture of Hillhurst.</p>
 			</section>
+
 			<section id="specials">
+				<h2>Today's special</h2>
+				<h3 id="today-special-title"></h3>
+				<img src="" id="today-spacial-img"/>	
 			</section>
 		</main>
+		<script src="./date-handling.js"></script>
 	</body>
 </html>
